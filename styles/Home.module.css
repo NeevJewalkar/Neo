@@ -49,17 +49,24 @@
 
 .amt {
     position: absolute;
-    top: 6vh;
+    top: 2vh;
     color: white;
     text-align: center;
     width: 100%;
     font-size: 6vw;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 1200px) {
     .amt {
-        top: 20%;
-        font-size: 75px;
+        top: 10%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .amt {
+        top: 10%;
+        font-size: 50px;
     }
 }
 
@@ -72,13 +79,19 @@
     width: 80%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 3.25vw;
+    font-size: 3.25vW;
 }
 
 
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 1500px) {
     .amp {
-        top: 50%;
+        top: -10%;
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .amp {
+        top:    10%;
         font-size: 20px;
     }
 }
