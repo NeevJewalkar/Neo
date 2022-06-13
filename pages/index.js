@@ -9,7 +9,7 @@ export default function Home() {
 
     let [greeting, setGreeting] = React.useState("")
 
-    let greetings = ['Hello World', "Hey", 'Hi', 'Howdy', 'Bonjour', 'Hey there']
+    let [greetings, setGreetings] = ['Hello World', "Hey", 'Hi', 'Howdy', 'Bonjour', 'Hey there']
 
     React.useEffect(() => {
         setGreeting(greetings[Math.floor(Math.random() * greetings.length)])
