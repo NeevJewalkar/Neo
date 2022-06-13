@@ -41,7 +41,9 @@ export default function Home() {
             </div>
         <div className={styles.am}>
             <h1 className={styles.amt}>About Me</h1>
-            <p className={styles.amp}>Hey! I have been coding since 2018 and have learnt many new things along the way. I&rsquo;m experienced with <Link href='https://nodejs.org/en/'><a className={styles.test}>Node.js</a></Link> and am currently learning <Link href="https://reactjs.org/"><a className={styles.test}>React</a></Link> with <Link href="https://nextjs.org/"><a className={styles.test}>Next.js</a></Link> and <Link href="https://graphql.org/"><a className={styles.test}>GraphQl</a></Link>. I mainly work on Databases and APIs, but I plan to become a fullstack developer soon!<br className={styles.br}/><br className={styles.br}/>Apart from development, I also enjoy designing UI (which is also a step for me to become a fullstack). </p>
+            <div className={styles.ampw}>
+                <p className={styles.amp}>Hey! I have been coding since 2018 and have learnt many new things along the way. I&rsquo;m experienced with <Link href='https://nodejs.org/en/'><a className={styles.test}>Node.js</a></Link> and am currently learning <Link href="https://reactjs.org/"><a className={styles.test}>React</a></Link> with <Link href="https://nextjs.org/"><a className={styles.test}>Next.js</a></Link> and <Link href="https://graphql.org/"><a className={styles.test}>GraphQl</a></Link>. I mainly work on Databases and APIs, but I plan to become a fullstack developer soon!<br className={styles.br}/><br className={styles.br}/>Apart from development, I also enjoy designing UI (which is also a step for me to become a fullstack). </p>
+            </div>
         </div>
         </div>
     </div>
